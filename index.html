@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário de Inscrição</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header-h1">Concorra a 2 Ingressos!</h1>
+        <h2 class="header-h2">Preencha o formulário para concorrer.</h2>
+    </header>
+    <main class="principal">
+        <p class="inicial">Ao preencher este formulário, você estará concorrendo a 2 ingressos para um Show.</p>
+        <form class="form">
+            <fieldset>
+                <div class="form-header">
+                    <div>
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label for="sobrenome" class="sobrenome">Sobrenome:</label>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+                </div>
+            </fieldset>
+            <div class="form-blusa">
+                <p >Preencha este formulário para incluir 2 blusas oficiais do Show.</p>
+                <label class="pergunta" for="" >Informe o tamanho da blosa:</label>
+                <label for="blusa">
+                    <input type="radio" name="blusa" id="pp">-PP
+                    <input type="radio" name="blusa" id="pequena">-P 
+                    <input type="radio" name="blusa" id="m">-M
+                    <input type="radio" name="blusa" id="g"> -G
+                    <input type="radio" name="blusa" id="gg">-GG
+                </label>
+            </div>
+            <div>
+                <main class="requisitos">
+                    <h1>Requisitos!</h1>
+                    <p>Para concorrer a este prêmio, além de preencher os dados acima, você precisará ter acima de 18 anos e doar 2kg de alimentos não perecíveis com validade acima de 3 meses.</p>
+                    <label for="check" class="check">
+                        <input type="checkbox" name="check" id="check" required>Ciente
+                    </label>
+                </main>
+            </div>
+            <button class="botao">Enviar</button>
+        </form>
+    </main>
+    <footer class="rodape">
+        <p><address class="endereço"> E-mail:mirellypollocks@gmail.com</address></p>
+        <p><address>Telefone:(85)9 8722-7214</address>.</p>
+    </footer>
+</body>
+</html>

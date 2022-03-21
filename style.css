@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #6F0185;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-family: sans-serif;
+    display: block;
+    align-items: center;
+    border-bottom: 0.2px solid #000000;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.808);
+    padding: 16px;
+    width: 97.5%;
+
+}
+.header-h2{
+    text-align: center;
+    width: 98%;
+    font-size: 1em;
+
+}
+
+ .inicial{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.principal{
+    background-color: #9709add8;
+    margin: auto;
+    height: 780px;
+    border-radius: 30px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    
+}
+
+
+#nome{
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+    margin-right: 10px;
+    outline: 0;
+    height: 30px;
+
+
+}
+#sobrenome{
+    border: 1px solid rgba(0, 0, 0, 0.623);
+    border-radius: 20px;
+    outline: 0;
+    height: 30px;
+    margin-right: 35px;
+}
+div{
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+
+}
+
+fieldset{
+    border: none;
+    width: 97%;
+}
+
+.form-blusa{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.form-blusa .pergunta{
+    font-size: 24px;
+    padding: 10px;
+}
+.requisitos{
+    margin: auto;
+    width: 200px;
+    background-color: rgba(224, 210, 210, 0.575);
+    border-radius: 20px;
+    height: 280px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+.check:hover{
+    text-decoration: none;
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+.botao{
+    border-radius: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.753);
+    width: 120px;
+    height: 35px;
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+    
+}
+.botao:hover{
+    background-color: rgb(241, 183, 228);
+}
+.rodape{
+    background-color: #6F0185;
+    padding: 9px;
+    text-align: center;
+    font-size: 16px;
+    border-top: 0.2px solid #000000;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.808);
+    width: 98.5%;
+   
+}
